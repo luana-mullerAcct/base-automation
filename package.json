@@ -1,0 +1,29 @@
+{
+  "name": "base-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint cypress/e2e/*.cy.js",
+    "lint:fix": "eslint cypress/**/**.js --fix",
+    "format": "prettier --write \"**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quality-digital/americanas-cypress-e2e.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quality-digital/americanas-cypress-e2e/issues"
+  },
+  "homepage": "https://github.com/quality-digital/americanas-cypress-e2e#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  },
+  "dependencies": {
+    "cypress-plugin-xhr-toggle": "^1.2.1"
+  }
+}
