@@ -1,4 +1,4 @@
-import { ELEMENTS } from "../../pages_elements/checkout_page";
+/*import { ELEMENTS } from "../../pages_elements/checkout_page";
 
 Cypress.Commands.add('createCart', (baseUrlCheckout, orderFormId) =>{
     cy.visit(baseUrlCheckout + "orderFormId=" + orderFormId + "#/cart")
@@ -46,4 +46,4 @@ Cypress.Commands.add('setValuesCreditCard', (number, name, month, year, code, do
     cy.getIframeCreditCard().find(ELEMENTS.PAYMENT.creditCardValues.cardYearInput).select(year)
     cy.getIframeCreditCard().find(ELEMENTS.PAYMENT.creditCardValues.cardCodeInput).type(code)
     cy.getIframeCreditCard().find(ELEMENTS.PAYMENT.creditCardValues.cardDocumentInput).type(document)
-})
+})*/

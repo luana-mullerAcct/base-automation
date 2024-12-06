@@ -5,6 +5,7 @@ Cypress.Commands.add('getVercelCookieValue', (cookieName) => {
     url: Cypress.config('baseUrl'),
     headers: {},
     body: '_vercel_password=American@s',
+    failOnStatusCode: false,
   }).then((response) => {
     expect(response.status).to.eq(200)
 

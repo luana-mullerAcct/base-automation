@@ -6,7 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     env: { hideXhr: true },
-    baseUrl: 'https://americanasqa.vtexdemostores.com/',
+    baseUrl: 'https://loja.electrolux.com.br/',
     viewportWidth: 1920,
     viewportHeight: 1080,
     chromeWebSecurity: false,

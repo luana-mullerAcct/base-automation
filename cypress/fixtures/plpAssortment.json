@@ -1,34 +1,35 @@
 {
     "sort_desc":{
-        "description": "mais relevantes",
-        "url": "/s?q=celular&sort=score_desc&page=0"
+        "description": "Relevancia",
+        "url": "eletrodomesticos/geladeiras---refrigeradores/?order=&utmi_p=home&utmi_pc=menu-eletrodomesticos"
     },
-    "orders_desc":{
-        "description": "mais vendidos",
-        "url": "/s?q=celular&sort=orders_desc&page=0"
+    "OrderByTopSaleDESC":{
+        "description": "Mais vendidos",
+        "url": "eletrodomesticos/geladeiras---refrigeradores?order=OrderByTopSaleDESC&utmi_p=home&utmi_pc=menu-eletrodomesticos"
     },
-    "discount_desc":{
-        "description": "desconto",
-        "url": "/s?q=celular&sort=discount_desc&page=0"
+    "OrderByReleaseDateDESC":{
+        "description": "Mais recentes",
+        "url": "eletrodomesticos/geladeiras---refrigeradores?order=OrderByReleaseDateDESC&utmi_p=home&utmi_pc=menu-eletrodomesticos"
     },
-    "price_asc":{
-        "description": "menores preços",
-        "url": "/s?q=celular&sort=price_asc&page=0"
+    "OrderByBestDiscountDES":{
+        "description": "Desconto",
+        "url": "eletrodomesticos/geladeiras---refrigeradores?order=OrderByBestDiscountDESC&utmi_p=home&utmi_pc=menu-eletrodomesticos"
     },
-    "price_desc":{
-        "description": "maiores preços",
-        "url": "/s?q=celular&sort=price_desc&page=0"
+    "OrderByPriceDESC":{
+        "description": "Preço: Do maior para o menor",
+        "url": "eletrodomesticos/geladeiras---refrigeradores?order=OrderByPriceDESC&utmi_p=home&utmi_pc=menu-eletrodomesticos"
     },
-    "release_desc":{
-        "description": "data de lançamento",
-        "url": "/s?q=celular&sort=release_desc&page=0"
+    "OrderByPriceASC":{
+        "description": "Preço: Do menor para o maior",
+        "url": "eletrodomesticos/geladeiras---refrigeradores?order=OrderByPriceASC&utmi_p=home&utmi_pc=menu-eletrodomesticos"
     },
-    "name_asc":{
-        "description": "ordem alfabética crescente",
-        "url": "/s?q=celular&sort=name_asc&page=0"
+    "OrderByNameASC":{
+        "description": "Nome em ordem crescente",
+        "url": "eletrodomesticos/geladeiras---refrigeradores?order=OrderByNameASC&utmi_p=home&utmi_pc=menu-eletrodomesticos"
     },
-    "name_desc":{
-        "description": "ordem alfabética decrescente",
-        "url": "/s?q=celular&sort=name_desc&page=0"
+    "OrderByNameDESC":{
+        "description": "Nome em ordem decrescente",
+        "url": "eletrodomesticos/geladeiras---refrigeradores?order=OrderByNameDESC&utmi_p=home&utmi_pc=menu-eletrodomesticos"
     }
+
 }

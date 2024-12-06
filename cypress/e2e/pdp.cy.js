@@ -2,7 +2,9 @@ import products from '../fixtures/products.json'
 
 describe('Validações na PDP', () => {
     beforeEach(() => {
-        cy.visit('/')
+       cy.visit('')
+       cy.get('#password').type('American@s')
+       
     })
 
     it('Validação do breadcrumb', () => {

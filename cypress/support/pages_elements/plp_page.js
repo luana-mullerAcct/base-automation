@@ -1,4 +1,5 @@
 export const ELEMENTS = {
-    assortmentFilter: ".SortProducts_variableContent__IiHm_",
+    assortmentFilter: ".vtex-search-result-3-x-orderByButton", 
     firstFilter: '[data-fs-filter-list-item="true"] > input'
+    
 }
