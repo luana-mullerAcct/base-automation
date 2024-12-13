@@ -5,7 +5,7 @@ describe('Validação dos cenários de minicart', () => {
         cy.visit('/')
     })
 
-    it('Validar o incremento de quantidade no minicart', () => {
+    it.only('Validar o incremento de quantidade no minicart', () => {
         cy.visitPdp(products[0].url)
         cy.addProductToMinicart()
         cy.increaseQtyMinicart()

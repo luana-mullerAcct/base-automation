@@ -46,6 +46,10 @@ Cypress.Commands.add("productDecreaseQty", () => {
 })
 
 Cypress.Commands.add("addProductToMinicart", () => {
-    cy.get(ELEMENTS.buyButton).should('be.visible').click()
-    cy.get(ELEMENTS.confirmationToMinicartButton).should('be.visible').click()
+    cy.get(ELEMENTS.lightButton).should('be.visible').click()
+    cy.get(ELEMENTS.light120Button).should('be.visible').click()//selecionando a voltagem
+    cy.get(ELEMENTS.buyButtonProduct).should('be.visible').click()//Add ao carrinho
+    cy.get(ELEMENTS.assuranceSelect).should('be.visible').click()//seleciono a garantia de 1 ano se visivel
+    cy.get(ELEMENTS.buyButton).should('be.visible').click()//add o produto de fato ao carrinho
+    //NÃO ESTA PASSANDO, PODE SER O TEMPO DE CARREGAMENTO DO PREÇO, VERIFICAR
 })
